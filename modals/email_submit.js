@@ -11,7 +11,7 @@ module.exports = {
   id: "emailsubmit",
   run: async (client, interaction, config, db) => {
 
-    if (interaction.fields.getTextInputValue('email').endsWith("@student.douglascollege.ca")) {
+    if (interaction.fields.getTextInputValue('email').endsWith(precess.env.Domain)) {
 
     //From left to right: command name, user's id, unix time number (current time)
     var commandStatus = guildGroup["global"].updateUsage('emailsend', interaction.guild.id + "-"+ interaction.user.id, interaction.createdTimestamp);
