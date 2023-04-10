@@ -3,8 +3,8 @@ Functions:
 - Sends a verification code to a specific domain's email address
 - The user inputs the code back to gain verified role
 
--> Configure config file
-.env file for:
+-> Configure in
+.env file:
   mailpw=""
   MONGO=""
   TOKEN=""
