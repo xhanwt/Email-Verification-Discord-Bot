@@ -1,7 +1,7 @@
 Functions:
 
-- Send a code to a specific domain email address
-- User type that code and give verified role
+- Sends a verification code to a specific domain's email address
+- The users inputs the code back to gain verified role
 
 - Configure config file
 - .env file for:
@@ -10,4 +10,4 @@ Functions:
   TOKEN=""
   Domain="@gmail.com"
 
-Any question? email: hello@hanwt.dev
+Any question? email: hello@hanwintun.com
